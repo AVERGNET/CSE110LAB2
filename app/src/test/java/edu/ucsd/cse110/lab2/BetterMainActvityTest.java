@@ -34,13 +34,3 @@ public class BetterMainActvityTest {
         });
     }
 }
-
-//    @Test
-//    public void testStudentNameIsDisplayed() {
-//        ActivityScenario<MainActivity> scenario = rule.getScenario();
-//        scenario.onActivity(activity -> {
-//            TextView tv = activity.findViewById(R.id.student_name_view);
-//            assertEquals("Alexis Vergnet", tv.getText());
-//            assertEquals(View.INVISIBLE,tv.getVisibility());
-//        });
-//    }
